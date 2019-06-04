@@ -1,0 +1,36 @@
+{
+	"name": "water-calculator",
+	"version": "1.0.0",
+	"description": "Determins how much water you should drink based on weight",
+	"typings": "typings/index.d.ts",
+	"main": "src/lib/index.js",
+	"scripts": {
+		"test": "eslint src --ext .js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Fyk0/water-calculator"
+	},
+	"keywords": [
+		"water",
+		"water calculator",
+		"drink water!",
+		"water is good for you"
+	],
+	"author": "Fyk0 <sycerdev@gmail.com>",
+	"license": "Apache",
+	"bugs": {
+		"url": "https://github.com/Fyk0/water-calculator/issues"
+	},
+	"homepage": "https://github.com/Fyk0/water-calculatore#readme",
+	"engines": {
+		"node": ">=8"
+	},
+	"devDependencies": {
+		"eslint": "^5.16.0",
+		"eslint-config-aqua": "^6.0.0"
+	},
+	"eslintConfig": {
+		"extends": "aqua/node"
+	}
+}
